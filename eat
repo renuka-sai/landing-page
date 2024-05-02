@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Eating Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Healthy Eating</h1>
+        <p>Eat well, live well!</p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Healthy Eating, your go-to destination for all things related to wellness and nutrition. At Healthy Eating, we believe that a balanced diet is the cornerstone of a healthy lifestyle.</p>
+            <p>Our mission is to provide you with the knowledge, resources, and inspiration you need to make informed choices about your diet and overall well-being. Whether you're looking to improve your energy levels, manage your weight, or simply feel better in your day-to-day life, we're here to support you every step of the way.</p>
+            <p>With a team of passionate nutritionists, chefs, and wellness experts, we strive to bring you the latest information on nutrition trends, delicious and nutritious recipes, and practical tips for incorporating healthy eating habits into your busy schedule.</p>
+            <p>Join us on this journey to better health and vitality. Together, let's make every bite count!</p>
+        </section>
+        <section id="benefits">
+            <h2>Benefits of Healthy Eating</h2>
+            <ul>
+                <li>Increased energy levels</li>
+                <li>Improved mood</li>
+                <li>Weight management</li>
+                <li>Reduced risk of chronic diseases</li>
+            </ul>
+        </section>
+        <section id="recipes">
+            <h2>Featured Recipes</h2>
+            <div class="recipe">
+                <img src="smoothie.jpg" alt="Healthy smoothie">
+                <h3>Green Detox Smoothie</h3>
+                <p>This refreshing green smoothie is packed with vitamins and nutrients to kickstart your day.</p>
+            </div>
+            <div class="recipe">
+                <img src="salad.jpg" alt="Fresh salad">
+                <h3>Quinoa Salad</h3>
+                <p>A colorful and nutritious salad featuring quinoa, veggies, and a zesty dressing.</p>
+            </div>
+        </section>
+        <section id="signup">
+            <h2>Sign Up for Our Newsletter</h2>
+            <form action="subscribe.php" method="POST">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Healthy Eating. All rights reserved.</p>
+    </footer>
+</body>
+</html>
